@@ -1,0 +1,19 @@
+.sidebar{
+    grid-area: s;
+  }
+  
+  .sidebar a{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.25s;
+  }
+  
+  .sidebar a:hover{
+    background-color: #fff;
+  }
+
+  .active{
+    background: #fff; 
+  }
